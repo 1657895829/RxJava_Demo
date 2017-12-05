@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RxJava_Demo.iml" filepath="$PROJECT_DIR$/RxJava_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RxJava_Retrofit+Fresco+RecyclerView+MVP/RxJava_Retrofit+Fresco+RecyclerView+MVP.iml" filepath="$PROJECT_DIR$/RxJava_Retrofit+Fresco+RecyclerView+MVP/RxJava_Retrofit+Fresco+RecyclerView+MVP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RxJava_Retrofit_Base/RxJava_Retrofit_Base.iml" filepath="$PROJECT_DIR$/RxJava_Retrofit_Base/RxJava_Retrofit_Base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RxJava_Retrofit_FengZhuangUtils/RxJava_Retrofit_FengZhuangUtils.iml" filepath="$PROJECT_DIR$/RxJava_Retrofit_FengZhuangUtils/RxJava_Retrofit_FengZhuangUtils.iml" />
+    </modules>
+  </component>
+</project>
