@@ -2,6 +2,7 @@ package com.app.utils.basefragment;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -26,11 +27,21 @@ public abstract class BaseMvpFragment<V,T extends BasePresenter<V>> extends Frag
 
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        presenter = initPresenter() ;
-        context = getActivity() ;
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
+
+//        //如果是在 onCreateView方法 引用p层，那么继承本类的Fragment使用p层获取数据也要在 onCreateView 方法中执行
+//        presenter = initPresenter();
+//        context = getActivity();
        return  null;
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+        //如果是在 onActivityCreated方法 引用p层，那么继承本类的Fragment使用p层获取数据也要在 onActivityCreated方法中执行
+        presenter = initPresenter();
+        context = getActivity();
     }
 
     //视图运行获取焦点时，连接view层
