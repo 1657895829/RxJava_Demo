@@ -8,7 +8,7 @@ public class BasePresenter<V> {
     public V view;
 
     /**
-     * Presenter 持有View 的接口
+     * 自定义Presenter 持有View 的接口
      * @param v
      */
     public void attach(V v){
@@ -16,7 +16,7 @@ public class BasePresenter<V> {
     }
 
     /**
-     * Presenter 释放持有View的接口， 防止内存泄漏
+     * 自定义Presenter 释放持有View的接口， 防止内存泄漏
      */
     public void detach(){
         this.view = null;
