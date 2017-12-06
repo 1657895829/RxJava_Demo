@@ -1,7 +1,7 @@
 package app.dhw.com.rxjava_retrofitfrescorecyclerviewmvp.retrofit;
 
-import java.util.Map;
 import app.dhw.com.rxjava_retrofitfrescorecyclerviewmvp.bean.Bean;
+import java.util.Map;
 import io.reactivex.Observable;
 import retrofit2.Call;
 import retrofit2.http.FieldMap;

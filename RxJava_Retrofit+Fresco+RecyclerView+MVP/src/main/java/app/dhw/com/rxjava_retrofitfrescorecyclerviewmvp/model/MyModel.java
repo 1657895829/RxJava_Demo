@@ -1,8 +1,8 @@
 package app.dhw.com.rxjava_retrofitfrescorecyclerviewmvp.model;
 
-import java.util.HashMap;
 import app.dhw.com.rxjava_retrofitfrescorecyclerviewmvp.app.MyApplication;
 import app.dhw.com.rxjava_retrofitfrescorecyclerviewmvp.bean.Bean;
+import java.util.HashMap;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
