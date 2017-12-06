@@ -1,0 +1,3 @@
+<resources>
+    <string name="app_name">MVP和Retrofit+Rxjava+OkHttp封装结合请求数据(可添加拦截器),Fresco加载图片，RecyclerView展示数据</string>
+</resources>
